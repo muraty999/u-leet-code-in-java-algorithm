@@ -3,7 +3,7 @@ package PART02_INTEGERS;
 
 import java.util.List;
 
-public class FizzbuzzMe {
+public class Fizzbuzz {
     
     public String[] fizzBuzz(int n) {
         String [] result = new String[n];
@@ -25,7 +25,7 @@ public class FizzbuzzMe {
     }
 
     public static void main(String[] args) {
-        System.out.println(List.of(new FizzbuzzMe().fizzBuzz(20)));
+        System.out.println(List.of(new Fizzbuzz().fizzBuzz(20)));
     }
 } // TC: O(n), SC: O(n)F
 
